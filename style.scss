@@ -1,0 +1,26 @@
+.utama {
+    background-color: salmon;
+    .satu {
+        font-size: 2em;
+    }
+    .utama-paragraf {
+        font-size: 1, 4em;
+    }
+}
+
+//parent selector
+.utama-paragraf {
+    .utama & {
+        color: rgb(7, 7, 75);
+    }
+}
+
+.footer-paragraf,
+.footer-header {
+    letter-spacing: 1px;
+}
+
+//parent selector
+.style-text {
+    color: rgb(155, 57, 57);
+}
