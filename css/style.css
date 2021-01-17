@@ -1,25 +1,27 @@
 .utama {
-  background-color: salmon;
+    background-color: salmon;
 }
 
 .utama .satu {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 .utama .utama-paragraf {
-  font-size: 1, 4em;
+    font-size: 1, 4em;
 }
 
 .utama .utama-paragraf {
-  color: #07074b;
+    color: #07074b;
 }
 
 .footer-paragraf,
 .footer-header {
-  letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 .style-text {
-  color: #9b3939;
+    color: #9b3939;
 }
+
+
 /*# sourceMappingURL=style.css.map */
