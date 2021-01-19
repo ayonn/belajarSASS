@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Nesting</title>
+    <title>sass</title>
 </head>
 
 <body>
@@ -24,6 +24,19 @@
             </div>
         </div>
     </section>
+    <!-- latihan variable -->
+    <section>
+        <div class="latihan2">
+            <h1 class="judul-latihan">Latihan variable</h1>
+            <p> variable menggunakan scss/sass hampir sama dengan html, menggunakan dollar $ sebagai tandanya.</p>
+        </div>
+
+        <div class="sifat-variable">
+            <h1> sifat sifat variable pada sass</h1>
+            <p>1. menganggap dash(-) dan udercross(_) itu sama. <br> 2.memiliki scoup juga seperti biasa, namun dengan memberi " !global" akan mengubah sifat variable local menjadi global ( contoh $warna-3: #ffff !global)
+            </p>
+        </div>
+    </section>
     <footer>
         <div class="footer-header">
             <!-- komen -->
@@ -36,6 +49,12 @@
                     faktanya nesting tidak hanya untuk selektor saja. Kita juga bisa melakukan nested untuk properti.
                     <br> tidak perlu menulis terlalu spesifik, di dalam nesting bisa di tambahkan nesting lagi, dan tidak perlu spesifik sekali, tinggal masukkan class saja di dalam elemen yang akan di beri style. *pada sub judul di atas ter implementasi
                     letter spacing 1px
+                </p>
+                <h1> map pada variable</h1>
+                <p>
+                    map adalah salah satu model penulisan / tempat menyimpan lebih dari satu warna <br> cara penulisannya adalah dengan membuat variable, lalu di dalam kurung di kasih value dan di pisah dengan koma, untuk memanggi warnanya dengan "map-get"
+                    : $variabel,'nama value nya'.
+                    <br> color : map-get
                 </p>
             </div>
         </div>

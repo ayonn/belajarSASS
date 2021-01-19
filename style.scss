@@ -1,5 +1,10 @@
-.utama {
-    background-color: salmon;
+$warna-a: #d6b0b1;
+$warna-b: #eb596e;
+$warna-c: #4d375d;
+$warna-d: #121013;
+$warna-f: #96bb7c;
+$calmcolor:( 'dustypink': #e5707e, 'mustard': #f37121, 'bookbrown': #ded7b1, 'grey': #bbbbbb, ) .utama {
+    background-color: $warna-c;
     .satu {
         font-size: 2em;
     }
@@ -11,7 +16,9 @@
 //parent ploololoselector
 .utama-paragraf {
     .utama & {
-        color: rgb(7, 7, 75);
+        //tanda dan untuk naroh ke parent
+        color: rgb(110, 110, 160);
+        background-color: $warna-a;
     }
 }
 
@@ -23,4 +30,26 @@
 //parent selector
 .style-text {
     color: rgb(155, 57, 57);
+}
+
+//latihan variable of sass
+.latihan2 {
+    background-color: $warna-a;
+    color: $warna-d;
+}
+
+.judul-latihan {
+    $tambahan-warna: #c9cbff !global; //variable local, untuk menjadikannya global !global
+    color: $warna-c;
+    // background-color: $tambahan-warna; 
+}
+
+.sifat-variable {
+    color: $warna-d;
+    background-color: $warna-f;
+}
+
+//map
+.warna-map {
+    color: map-get($calmcolor, 'dustypink');
 }

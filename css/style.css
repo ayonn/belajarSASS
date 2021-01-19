@@ -1,27 +1,40 @@
 .utama {
-    background-color: salmon;
+  background-color: #4d375d;
 }
 
 .utama .satu {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .utama .utama-paragraf {
-    font-size: 1, 4em;
+  font-size: 1, 4em;
 }
 
 .utama .utama-paragraf {
-    color: #07074b;
+  color: #6e6ea0;
+  background-color: #d6b0b1;
 }
 
 .footer-paragraf,
 .footer-header {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .style-text {
-    color: #9b3939;
+  color: #9b3939;
 }
 
+.latihan2 {
+  background-color: #d6b0b1;
+  color: #121013;
+}
 
+.judul-latihan {
+  color: #4d375d;
+}
+
+.sifat-variable {
+  color: #121013;
+  background-color: #96bb7c;
+}
 /*# sourceMappingURL=style.css.map */
