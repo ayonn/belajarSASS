@@ -49,7 +49,7 @@ $calmcolor:( 'dustypink': #e5707e, 'mustard': #f37121, 'bookbrown': #ded7b1, 'gr
     background-color: $warna-f;
 }
 
-//map
+//map   
 .warna-map {
     color: map-get($calmcolor, 'dustypink');
 }
